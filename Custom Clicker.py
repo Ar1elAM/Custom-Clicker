@@ -91,7 +91,7 @@ def key_press(key):
             #print(mouse_pos)
         else:
             custom = True
-            print("\nYou choose custom mode, this mode is useful for precise clicks positioning.\nJust hover your mouse where you want it to click, and press the ",set_XY_key," key, and type the amount of seconds you want it to wait.\nWhen ready just press the button you chose as " '"start button": ',start_stop_key, " key.")
+            print("\nYou chose custom mode, this mode is useful for precise clicks positioning.\nJust hover your mouse where you want it to click, and press the ",set_XY_key," key, and type the amount of seconds you want it to wait.\nWhen ready just press the button you chose as " '"start button": ',start_stop_key, " key.")
     elif key == start_stop_key:
         if auto_thread.running:
             auto_thread.stop_clicking()
